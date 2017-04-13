@@ -1,0 +1,2 @@
+# 禁用swapping
+
