@@ -1,0 +1,2 @@
+# Hunspell Token Filter
+

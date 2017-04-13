@@ -1,0 +1,2 @@
+# GeoHash grid Aggregation
+

@@ -1,0 +1,2 @@
+# Synonym Token Filter
+
