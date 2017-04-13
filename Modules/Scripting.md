@@ -8,12 +8,12 @@
 
 这些语言可以用于任何的脚本API，并给予了最大的灵活性。
 
-语言        |沙盒         |所需插件
------------|:-----------:|---------------
-painless   |yes          |内置
-groovy     |no           |内置
-javascript |no           |[lang-javascript](https://www.elastic.co/guide/en/elasticsearch/plugins/5.3/lang-javascript.html)
-python     |no           |[lang-javascript](https://www.elastic.co/guide/en/elasticsearch/plugins/5.3/lang-javascript.html)
+| 语言 | 沙盒 | 所需插件 |
+| --- | :---: | --- |
+| painless | yes | 内置 |
+| groovy | no | 内置 |
+| javascript | no | [lang-javascript](https://www.elastic.co/guide/en/elasticsearch/plugins/5.3/lang-javascript.html) |
+| python | no | [lang-javascript](https://www.elastic.co/guide/en/elasticsearch/plugins/5.3/lang-javascript.html) |
 
 ## 专业语言
 
@@ -25,7 +25,9 @@ python     |no           |[lang-javascript](https://www.elastic.co/guide/en/elas
 [mustache](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-template.html)     |yes           |内置 | 模板
 [java](./Scripting/Native_(Java)_Scripts.md) |n/a           |自己写 | 专业API
 
-
 > **脚本与安全**（警告）
-> 
+>
 > 语言在设计时是考虑到安全沙盒的。然而，非沙盒语言可能是一个安全问题，请阅读[脚本与安全](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-scripting-security.html)来获取详细信息。
+
+
+
