@@ -21,9 +21,9 @@ python     |no           |[lang-javascript](https://www.elastic.co/guide/en/elas
 
 语言        |沙盒         |所需插件        |用途
 -----------|:-----------:|---------------|------
-[expression](./Scripting/Lucene%20Expressions%20Language.md)| yes       |内置   |快速自定义评分与排序
+[expression](./Scripting/Lucene_Expressions_Language.md)| yes       |内置   |快速自定义评分与排序
 [mustache](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-template.html)     |yes           |内置 | 模板
-[java](./Scripting/Native%20(Java)%20Scripts.md) |n/a           |自己写 | 专业API
+[java](./Scripting/Native_(Java)_Scripts.md) |n/a           |自己写 | 专业API
 
 
 > **脚本与安全**（警告）

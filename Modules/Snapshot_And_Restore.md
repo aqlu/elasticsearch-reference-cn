@@ -253,7 +253,7 @@ DELETE /_snapshot/my_backup
 POST /_snapshot/my_backup/snapshot_1/_restore
 ```
 
-默认情况下，快照中的所有索引都会被还原，集群的全局设置不会被还原。这可能是最好的还原选择，允许通过设置`indices`与`include_global_state`参数来控制还原集群的全局设置与索引。索引列表支持[多索引语法](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-multi-index-type)。`rename_pattern`与`rename_replacement`选项可以在还原时通过正则表达式来重命名索引，如何匹配可参见[这里](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Matcher.html#appendReplacement(java.lang.StringBuffer,%20java.lang.String))。设置`include_aliases`为`false`可以防止别名和关联的索引一起被还原。
+默认情况下，快照中的所有索引都会被还原，集群的全局设置不会被还原。这可能是最好的还原选择，允许通过设置`indices`与`include_global_state`参数来控制还原集群的全局设置与索引。索引列表支持[多索引语法](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-multi-index-type)。`rename_pattern`与`rename_replacement`选项可以在还原时通过正则表达式来重命名索引，如何匹配可参见[这里](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Matcher.html#appendReplacement(java.lang.StringBuffer,_java.lang.String))。设置`include_aliases`为`false`可以防止别名和关联的索引一起被还原。
 
 ```js
 POST /_snapshot/my_backup/snapshot_1/_restore

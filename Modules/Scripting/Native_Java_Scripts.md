@@ -1,6 +1,6 @@
 # 原生（Java）脚本
 
-有时候`groovy`和[表达式](./Lucene%20Expressions%20Language.md)是不够的。这种时候可以实现原生脚本。
+有时候`groovy`和[表达式](./Lucene_Expressions_Language.md)是不够的。这种时候可以实现原生脚本。
 
 实现原生脚本，最好的方法是编写一个插件并安装它。如何编写一个插件并让Elasticsearch正确的加载它，在[插件文档](https://www.elastic.co/guide/en/elasticsearch/plugins/5.3/plugin-authors.html)章节有更多的介绍。
 
