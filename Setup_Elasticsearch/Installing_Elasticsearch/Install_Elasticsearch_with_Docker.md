@@ -37,25 +37,34 @@ docker run -p 9200:9200 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" doc
 > 用于生产`vm_max_map_count`内核参数需要被设置到至少262144。不同平台的设置方式:
 >
 > * Linux
+>
 > &emsp;&emsp;`vm_max_map_count`参数需要永久的配置在`/etc/sysctl.conf`中：
+>
 > ```bash
 > $ grep vm.max_map_count /etc/sysctl.conf
 > vm.max_map_count=262144
 > ```
+>
 > &emsp;&emsp;正在运行的系统实时生效可使用：`sysctl -w vm.max_map_count=262144`
 >
 > * OSX with [Docker for Mac](https://docs.docker.com/engine/installation/mac/#/docker-for-mac)
+>
 > &emsp;&emsp;`vm_max_map_count`参数必须要在`xhyve`虚拟机中配置：
+>
 > ```bash
 > $ screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty
 > ```
+>
 > &emsp;&emsp;登录到root用户下，像Linux那样通过`sysctl`来配置
+>
 > ```bash
 > sysctl -w vm.max_map_count=262144
 > ```
 >
 > * OSX with [Docker Toolbox](https://docs.docker.com/engine/installation/mac/#docker-toolbox)
+>
 > &emsp;&emsp;`vm_max_map_count`参数必须要在`docker-machine`中配置：
+>
 > ```bash
 > docker-machine ssh
 > sudo sysctl -w vm.max_map_count=262144

@@ -1,2 +1,2 @@
-# 导入Elasticsearch配置
+# 重要的Elasticsearch配置
 

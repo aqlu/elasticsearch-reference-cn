@@ -30,8 +30,7 @@
     "github-buttons": {
       "repo": "aqlu/elasticsearch-reference-cn",
       "types": [
-        "star",
-        "follow"
+        "star"
       ],
       "size": "small"
     }
