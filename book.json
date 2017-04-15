@@ -6,9 +6,7 @@
     "github",
     "editlink",
     "prism",
-    "sitemap",
     "tbfed-pagefooter",
-    "disqus",
     "github-buttons"
   ],
   "pluginsConfig": {
@@ -24,24 +22,18 @@
       "base": "https://github.com/aqlu/elasticsearch-reference-cn/blob/master",
       "label": "编辑"
     },
-    "sitemap": {
-      "hostname": "http://www.elastic.co/"
-    },
     "tbfed-pagefooter": {
       "copyright":"&copy <a href='http://www.apache.wiki/' target='_blank'>ApacheCN</a> Team",
       "modify_label": "该文件修订于：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
-    "disqus": {
-      "shortName": "Elasticsearch中文指南"
-    },
     "github-buttons": {
       "repo": "aqlu/elasticsearch-reference-cn",
       "types": [
         "star",
-        "watch"
+        "follow"
       ],
-      "size": "large"
+      "size": "small"
     }
   }
 }
