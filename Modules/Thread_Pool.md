@@ -46,7 +46,7 @@ listener
 
 **更改指定线程池可以通过设置指定类型的参数来实现; 例如，改变`index`线程池有更多的线程：**
 
-```yml
+```yaml
 thread_pool:
     index:
         size: 30
@@ -64,7 +64,7 @@ thread_pool:
 
 `queue_size`参数可以控制在没有空闲线程时，能排队挂起的请求数。默认情况下它被设置为`-1`，这意味着它是无限的。当一个请求进来时如果队列已满，请求将被中止。
 
-```yml
+```yaml
 thread_pool:
     index:
         size: 30
@@ -77,7 +77,7 @@ thread_pool:
 
 `keep_alive`参数用来控制线程在线程池中空闲的最长时间。（译者注：线程池中线程的空闲时间超过此值、且池中的线程数量不少于`core`时，线程会被销毁）。
 
-```yml
+```yaml
 thread_pool:
     warmer:
         core: 1
@@ -89,7 +89,7 @@ thread_pool:
 
 Elasticsearch会自动探测处理器的数量，并且线程池的设置将基于它自动设置。在某些情况下，你可能需要自己覆盖自动探测的处理器数量，这可以通过显式设置`processors`参数来进行设置。
 
-```yml
+```yaml
 processors: 2
 ```
 
