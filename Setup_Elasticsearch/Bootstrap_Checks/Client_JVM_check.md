@@ -1,2 +1,4 @@
-# JVM检查
+# JVM Client模式检查
+
+OpenJDK提供了两种JVM的运行模式：`client JVM`模式与`server JVM`模式。他们提供了不同的编译器来从java字节码来执行机器码。client JVM调优了启动时间以及内存消耗，server jvm提供了更高的性能。二者的性能差异非常大。JVM Client模式检查是确保Elasticsearch不以client模式来运行。要想通过此检查，你需要以server的方式来启动Elasticsearch。在现有的系统与操作系统中，server模式是默认的。此外，Elasticsearch也默认强制配置了server模式。
 

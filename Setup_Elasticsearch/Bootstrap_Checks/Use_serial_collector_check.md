@@ -1,2 +1,3 @@
 # 串行收集使用检查
 
+针对不同的工作负载OpenJDK有不同的垃圾收集方式。串行收集器是最适合单一逻辑的CPU机器或非常小的堆，这不适合Elasticsearch运行。使用串行收集器对于Elasticsearch的性能可能是毁灭性的。串行收集器检查确保Elasticsearch不采用串行收集器运行。要通过此检查，你必须不能用串行收集器来运行Elasticsearch（无论你是否使用JVM默认值还是明确指定`-XX:+UseSerialGC`）。注意，默认JVM配置通过Elasticsearch的配置将使用CMS回收器。

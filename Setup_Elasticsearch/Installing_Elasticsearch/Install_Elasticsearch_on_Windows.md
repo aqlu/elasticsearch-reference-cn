@@ -72,7 +72,7 @@ GET /
 }
 ```
 
-## Windows后台服务方式安装
+## <span id="windows-service">Windows后台服务方式安装</span>
 
 Elasticsearch能够被安装到Window的后台服务，它可以在没有任何用户交互的情况下跟谁操作系统一起启动。这可以通过`bin\`目录中的`elasticsearch-service.bat`脚本来实现安装、删除、管理与配置后台服务的启动与停止，都是通过命令行来实现。
 
