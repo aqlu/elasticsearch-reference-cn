@@ -30,7 +30,7 @@ path:
 
 设置也可以展平开如下：
 
-```yml
+```yaml
 path.data: /var/lib/elasticsearch
 path.logs: /var/log/elasticsearch
 ```
@@ -39,7 +39,7 @@ path.logs: /var/log/elasticsearch
 
 配置文件中可以使用`${...}`符号来引用环境变量的值，例如：
 
-```yml
+```yaml
 node.name:    ${HOSTNAME}
 network.host: ${ES_NETWORK_HOST}
 ```
@@ -48,7 +48,7 @@ network.host: ${ES_NETWORK_HOST}
 
 对于您不希望保存在配置文件中的设置，您可以使用`${prompt.text}`或`${prompt.secret}`这样的值并在控制台启动Elasticsearch。`${prompt.secret}`禁用了打印，所以输入的值不会在终端显示; `${prompt.text}`将允许您在键入时看到值。例如：
 
-```yml
+```yaml
 node:
   name: ${prompt.text}
 ```
