@@ -84,8 +84,8 @@
 |&emsp;&emsp;&emsp;&emsp;[Aggregation变化](./Breaking_changes/Breaking_changes_in_5.0/Aggregation_changes.md)||
 |&emsp;&emsp;&emsp;&emsp;[脚本相关变化](./Breaking_changes/Breaking_changes_in_5.0/Script_related_changes.md)||
 |[API约定](./API_Conventions.md)|[@小瑶](http://www.apache.wiki/display/~chenyao)|
-|&emsp;&emsp;&emsp;&emsp;[多个索引库](./API_Conventions/Multiple_Indices.md)|[@小瑶](http://www.apache.wiki/display/~chenyao)、[@阿叩](https://github.com/aqlu)|
-|&emsp;&emsp;&emsp;&emsp;[索引库名称支持的日期运算](./API_Conventions/Date_math_support_in_index_names.md)|[@小瑶](http://www.apache.wiki/display/~chenyao)、[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;&emsp;&emsp;[多索引语法](./API_Conventions/Multiple_Indices.md)|[@小瑶](http://www.apache.wiki/display/~chenyao)、[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;&emsp;&emsp;[索引库名称的日期运算](./API_Conventions/Date_math_support_in_index_names.md)|[@小瑶](http://www.apache.wiki/display/~chenyao)、[@阿叩](https://github.com/aqlu)|
 |&emsp;&emsp;&emsp;&emsp;[常用选项](./API_Conventions/Common_options.md)|[@小瑶](http://www.apache.wiki/display/~chenyao)、[@阿叩](https://github.com/aqlu)|
 |&emsp;&emsp;&emsp;&emsp;[URL-based访问控制](./API_Conventions/URL-based_access_control.md)|[@小瑶](http://www.apache.wiki/display/~chenyao)、[@阿叩](https://github.com/aqlu)|
 |[文档API](./Document_APIs.md)|[@阿叩](https://github.com/aqlu)|

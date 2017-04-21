@@ -18,7 +18,7 @@
 
 [Discovery（发现）](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-discovery.html)
 
-&emsp;&emsp;*集群中的节点彼此之间是如何发现的。*
+&emsp;&emsp;*构成一个集群的节点彼此之间是如何发现的。*
 
 [Gateway（网关）](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-gateway.html)
 
