@@ -60,7 +60,7 @@ GET twitter/tweet/0?_source_include=*.id&_source_exclude=entities
 GET twitter/tweet/0?_source=*.id,retweeted
 ```
 
-## 存储字段
+## <span id="get-stored-fields">存储字段</span>
 
 get 操作允许指定一系列的存储字段，这些字段将会被通过传递`stored_fields`参数返回。如果请求的字段没有被储存，将会被忽略。参考以下示例：
 
@@ -153,7 +153,7 @@ GET twitter/tweet/2?routing=user1&stored_fields=tags,counter
 
 只有叶子字段才可以通过`stored_field`选项返回。所以`object`字段无法返回并且这个请求会失败
 
-## 生成的字段
+## <span id="generated-fields">生成的字段</span>
 
 如果在创建索引和冲刷过程中没有发生冲刷操作，GET会访问事务日志来获取文档。然而，一些字段只会在创建索引时生成，如果你尝试访问那些只有在创建索引时才会创建的字段，默认情况下会得到一个异常。你可以通过设置`ignore_errors_on_generated_fields=true`来忽略那些字段。
 

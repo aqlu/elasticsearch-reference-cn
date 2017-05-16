@@ -52,7 +52,7 @@ PUT twitter/tweet/1
 
 自动创建所以库可以基于一定规则的黑白名单列表，例如，设置`action.auto_create_index` 为 `+aaa*,-bbb*,+ccc*,-*`  （ `+`表示允许，`-`表示不允许）。
 
-## 版本控制
+## <span id="index-versioning">版本控制</span>
 
 每一个被索引的文档都会给他一个版本号。分配的`version`编号会作为创建索引文档返回结果的一部分。当版本号指定的时候，index API允许[乐观并发控制](http://en.wikipedia.org/wiki/Optimistic_concurrency_control)。这将故意控制文档的版本。一个好的版本控制用户案例是执行事务`读然后修改`。在指定`version`开始读取文档时，同时确保文档不发生变化（读操作在修改操作之后时，推荐设置`perference`为`_primary`）。例如：
 
