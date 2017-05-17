@@ -102,9 +102,9 @@
 |&emsp;&emsp;[Term Vectors](./Document_APIS/Term_Vectors.md)|[@阿叩](https://github.com/aqlu)|
 |&emsp;&emsp;[Multi termvectors API](./Document_APIS/Multi_termvectors_API.md)|[@阿叩](https://github.com/aqlu)|
 |&emsp;&emsp;[refresh](./Document_APIS/refresh.md)|[@阿叩](https://github.com/aqlu)|
-|[搜索API](./Search_APIs.md)||
-|&emsp;&emsp;[Search](./Search_APIs/Search.md)||
-|&emsp;&emsp;[URI Search](./Search_APIs/URI_Search.md)||
+|[搜索API](./Search_APIs.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Search](./Search_APIs/Search.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[URI Search](./Search_APIs/URI_Search.md)|[@ping](http://www.apache.wiki/display/~shengping)|
 |&emsp;&emsp;[Request Body Search](./Search_APIs/Request_Body_Search.md)||
 |&emsp;&emsp;&emsp;&emsp;[Query](./Search_APIs/Request_Body_Search/Query.md)||
 |&emsp;&emsp;&emsp;&emsp;[From / Size](./Search_APIs/Request_Body_Search/From_Size.md)||
@@ -138,7 +138,7 @@
 |&emsp;&emsp;[Multi Search API](./Search_APIs/Multi_Search_API.md)||
 |&emsp;&emsp;[Count API](./Search_APIs/Count_API.md)||
 |&emsp;&emsp;[Validate API](./Search_APIs/Validate_API.md)||
-|&emsp;&emsp;[Explain API](./Search_APIs/Explain_API.md)||
+|&emsp;&emsp;[Explain API](./Search_APIs/Explain_API.md)|[@阿叩](https://github.com/aqlu)|
 |&emsp;&emsp;[Profile API](./Search_APIs/Profile_API.md)||
 |&emsp;&emsp;&emsp;&emsp;[Profiling Queries](./Search_APIs/Profile_API/Profiling_Queries.md)||
 |&emsp;&emsp;&emsp;&emsp;[Profiling Aggregations](./Search_APIs/Profile_API/Profiling_Aggregations.md)||
