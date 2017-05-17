@@ -91,17 +91,17 @@
 |[文档API](./Document_APIs.md)|[@阿叩](https://github.com/aqlu)|
 |&emsp;&emsp;[读写文档](./Document_APIS/Reading_and_Writing_documents.md)|[@阿叩](https://github.com/aqlu)|
 |&emsp;&emsp;[Index API](./Document_APIS/Index_API.md)|[@小瑶](http://www.apache.wiki/display/~chenyao)、[@那伊抹微笑](http://www.apache.wiki/display/~wangyangting)、[@阿叩](https://github.com/aqlu)|
-|&emsp;&emsp;[Get API](./Document_APIS/Get_API.md)||
-|&emsp;&emsp;[Delete API](./Document_APIS/Delete_API.md)||
-|&emsp;&emsp;[Delete By Query API](./Document_APIS/Delete_By_Query_API.md)||
-|&emsp;&emsp;[Update API](./Document_APIS/Update_API.md)||
-|&emsp;&emsp;[Update By Query API](./Document_APIS/Update_By_Query_API.md)||
-|&emsp;&emsp;[Multi Get API](./Document_APIS/Multi_Get_API.md)||
-|&emsp;&emsp;[Bulk API](./Document_APIS/Bulk_API.md)||
-|&emsp;&emsp;[Reindex API](./Document_APIS/Reindex_API.md)||
-|&emsp;&emsp;[Term Vectors](./Document_APIS/Term_Vectors.md)||
-|&emsp;&emsp;[Multi termvectors API](./Document_APIS/Multi_termvectors_API.md)||
-|&emsp;&emsp;[refresh](./Document_APIS/refresh.md)||
+|&emsp;&emsp;[Get API](./Document_APIS/Get_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Delete API](./Document_APIS/Delete_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Delete By Query API](./Document_APIS/Delete_By_Query_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Update API](./Document_APIS/Update_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Update By Query API](./Document_APIS/Update_By_Query_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Multi Get API](./Document_APIS/Multi_Get_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Bulk API](./Document_APIS/Bulk_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Reindex API](./Document_APIS/Reindex_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Term Vectors](./Document_APIS/Term_Vectors.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Multi termvectors API](./Document_APIS/Multi_termvectors_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[refresh](./Document_APIS/refresh.md)|[@阿叩](https://github.com/aqlu)|
 |[搜索API](./Search_APIs.md)||
 |&emsp;&emsp;[Search](./Search_APIs/Search.md)||
 |&emsp;&emsp;[URI Search](./Search_APIs/URI_Search.md)||
