@@ -1,6 +1,6 @@
 # 搜索API
 
-大多数搜索API是[多索引]，[多类型]，除了[Explain API](./Search_APIs/Explain_API.md)端点。
+大多数搜索API是[多索引，多类型](./Search_APIs/Search.md#search-multi-index-type)，除了[Explain API](./Search_APIs/Explain_API.md)端点。
 
 ## 路由
 

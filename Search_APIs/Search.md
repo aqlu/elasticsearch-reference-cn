@@ -2,7 +2,7 @@
 
 搜索API允许您执行搜索查询并获取与查询匹配的文档。查询可以使用简单的[查询字符串参数](./URI_Search.md)或[使用请求体](./Request_Body_Search.md)。
 
-## 多索引、多类型
+## <span id="search-multi-index-type">多索引、多类型</span>
 
 所有搜索API可以跨索引中的多种类型应用，并跨多个索引并支持[多索引语法](../API_Conventions/Multiple_Indices.md)。例如，我们可以搜索`twitter`索引中所有类型的所有文档：
 
