@@ -1,5 +1,6 @@
 # Elasticsearch Reference [5.3]（中文翻译）
 
+完成进度：105/568 ![进度条](https://img.lishengcn.cn/progress?percent=19&width=200)
 
 ## 翻译贡献者
 
@@ -125,12 +126,12 @@
 |&emsp;&emsp;&emsp;&emsp;[min_score](./Search_APIs/Request_Body_Search/min_score.md)|[@ping](http://www.apache.wiki/display/~shengping)|
 |&emsp;&emsp;&emsp;&emsp;[Named Queries](./Search_APIs/Request_Body_Search/Named_Queries.md)|[@ping](http://www.apache.wiki/display/~shengping)|
 |&emsp;&emsp;&emsp;&emsp;[Inner hits](./Search_APIs/Request_Body_Search/Inner_hits.md)|[@ping](http://www.apache.wiki/display/~shengping)|
-|&emsp;&emsp;&emsp;&emsp;[Field Collapsing](./Search_APIs/Request_Body_Search/Field_Collapsing.md)||
+|&emsp;&emsp;&emsp;&emsp;[Field Collapsing](./Search_APIs/Request_Body_Search/Field_Collapsing.md)|[@李辰](http://cwiki.apachecn.org/display/~lichen)|
 |&emsp;&emsp;&emsp;&emsp;[Search After](./Search_APIs/Request_Body_Search/Search_After.md)|[@ping](http://www.apache.wiki/display/~shengping)|
-|&emsp;&emsp;[Search Template](./Search_APIs/Search_Template.md)||
-|&emsp;&emsp;[Multi Search Template](./Search_APIs/Multi_Search_Template.md)||
-|&emsp;&emsp;[Search Shards API](./Search_APIs/Search_Shards_API.md)||
-|&emsp;&emsp;[Suggesters](./Search_APIs/Suggesters.md)||
+|&emsp;&emsp;[Search Template](./Search_APIs/Search_Template.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
+|&emsp;&emsp;[Multi Search Template](./Search_APIs/Multi_Search_Template.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
+|&emsp;&emsp;[Search Shards API](./Search_APIs/Search_Shards_API.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
+|&emsp;&emsp;[Suggesters](./Search_APIs/Suggesters.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
 |&emsp;&emsp;&emsp;&emsp;[Term suggester](./Search_APIs/Suggesters/Term_suggester.md)||
 |&emsp;&emsp;&emsp;&emsp;[Phrase Suggester](./Search_APIs/Suggesters/Phrase_Suggester.md)||
 |&emsp;&emsp;&emsp;&emsp;[Completion Suggester](./Search_APIs/Suggesters/Completion_Suggester.md)||
