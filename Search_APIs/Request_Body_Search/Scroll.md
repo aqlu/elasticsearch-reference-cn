@@ -79,7 +79,7 @@ GET /_search?scroll=1m
 
 ## <span id="keeping_the_search_context_alive">Keeping the search context alive</span>
 
-滚动参数（传递到搜索请求和每个滚动请求）告诉Elasticsearch应该保持搜索上下文活动的时间。其值（例如，`1m`，请参阅[Time unit](../../API_Conventions/Common_options.md#time-units/)一节）不需要足够长以处理所有数据 —— 它只需要足够长的时间来处理前一批结果。每个滚动请求（具有滚动参数）设置新的到期时间。
+滚动参数（传递到搜索请求和每个滚动请求）告诉Elasticsearch应该保持搜索上下文活动的时间。其值（例如，`1m`，请参阅[Time unit](../../API_Conventions/Common_options.md#time-units)一节）不需要足够长以处理所有数据 —— 它只需要足够长的时间来处理前一批结果。每个滚动请求（具有滚动参数）设置新的到期时间。
 
 通常，后台合并过程通过将较小的段合并在一起以创建新的较大段来优化索引，此时较小的段被删除。此过程在滚动期间继续，但是打开的搜索上下文防止旧段在它们仍在使用时被删除。这就是Elasticsearch如何能够返回初始搜索请求的结果，而不考虑对文档的后续更改。
 
