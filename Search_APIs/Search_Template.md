@@ -294,10 +294,13 @@ ______________________________
 
 > 注意：
 >
-> 如上所述，模板不是有效的JSON 形式，因为它包含类似`{{#line_no}}`的部分标记，因此，模板应存储在文件中（参考[预注册模板](#pre-registered-templates)一节）或者在通过`REST API`使用时，应该将其写成字符串格式，比如：
-> ```js
-> "inline": "{\"query\":{\"bool\":{\"must\":{\"match\":{\"line\":\"{{text}}\"}},\"filter\":{{{#line_no}}\"range\":{\"line_no\":{{{#start}}\"gte\":\"{{start}}\"{{#end}},{{/end}}{{/start}}{{#end}}\"lte\":\"{{end}}\"{{/end}}}}{{/line_no}}}}}}"
->```
+> 如上所述，模板不是有效的JSON 形式，因为它包含类似`{{line_no}}`的部分标记，因此，模板应存储在文件中（参考[预注册模板](#pre-registered-templates)一节）或者在通过`REST API`使用时，应该将其写成字符串格式，比如：
+
+```bash
+{
+  "inline": "{\"query\":{\"bool\":{\"must\":{\"match\":{\"line\":\"{{text}}\"}},\"filter\":{{{#line_no}}\"range\":{\"line_no\":{{{#start}}\"gte\":\"{{start}}\"{{#end}},{{/end}}{{/start}}{{#end}}\"lte\":\"{{end}}\"{{/end}}}}{{/line_no}}}}}}"
+}
+```
 
 ### URL编码
 
