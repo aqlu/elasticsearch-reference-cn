@@ -136,16 +136,16 @@
 |&emsp;&emsp;&emsp;&emsp;[Phrase Suggester](./Search_APIs/Suggesters/Phrase_Suggester.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
 |&emsp;&emsp;&emsp;&emsp;[Completion Suggester](./Search_APIs/Suggesters/Completion_Suggester.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
 |&emsp;&emsp;&emsp;&emsp;[Context Suggester](./Search_APIs/Suggesters/Context_Suggester.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
-|&emsp;&emsp;[Multi Search API](./Search_APIs/Multi_Search_API.md)||
-|&emsp;&emsp;[Count API](./Search_APIs/Count_API.md)||
-|&emsp;&emsp;[Validate API](./Search_APIs/Validate_API.md)||
+|&emsp;&emsp;[Multi Search API](./Search_APIs/Multi_Search_API.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Count API](./Search_APIs/Count_API.md)|[@琴剑蓝天](http://cwiki.apachecn.org/display/~xujie)|
+|&emsp;&emsp;[Validate API](./Search_APIs/Validate_API.md)|[@琴剑蓝天](http://cwiki.apachecn.org/display/~xujie)|
 |&emsp;&emsp;[Explain API](./Search_APIs/Explain_API.md)|[@阿叩](https://github.com/aqlu)|
-|&emsp;&emsp;[Profile API](./Search_APIs/Profile_API.md)||
-|&emsp;&emsp;&emsp;&emsp;[Profiling Queries](./Search_APIs/Profile_API/Profiling_Queries.md)||
-|&emsp;&emsp;&emsp;&emsp;[Profiling Aggregations](./Search_APIs/Profile_API/Profiling_Aggregations.md)||
-|&emsp;&emsp;&emsp;&emsp;[Profiling Considerations](./Search_APIs/Profile_API/Profiling_Considerations.md)||
-|&emsp;&emsp;[Percolator](./Search_APIs/Percolator.md)||
-|&emsp;&emsp;[Field stats API](./Search_APIs/Field_stats_API.md)||
+|&emsp;&emsp;[Profile API](./Search_APIs/Profile_API.md)|[@王晗](http://cwiki.apachecn.org/display/~wanghan)|
+|&emsp;&emsp;&emsp;&emsp;[Profiling Queries](./Search_APIs/Profile_API/Profiling_Queries.md)|[@王晗](http://cwiki.apachecn.org/display/~wanghan)、[@岑晓燕](http://cwiki.apachecn.org/display/~cenxiaoyan)|
+|&emsp;&emsp;&emsp;&emsp;[Profiling Aggregations](./Search_APIs/Profile_API/Profiling_Aggregations.md)|[@岑晓燕](http://cwiki.apachecn.org/display/~cenxiaoyan)|
+|&emsp;&emsp;&emsp;&emsp;[Profiling Considerations](./Search_APIs/Profile_API/Profiling_Considerations.md)|[@岑晓燕](http://cwiki.apachecn.org/display/~cenxiaoyan)|
+|&emsp;&emsp;[Percolator](./Search_APIs/Percolator.md)|[@阿叩](https://github.com/aqlu)|
+|&emsp;&emsp;[Field stats API](./Search_APIs/Field_stats_API.md)|[@阿叩](https://github.com/aqlu)|
 |[聚合](./Aggregations.md)||
 |&emsp;&emsp;[Metrics Aggregations](./Aggregations/Metrics_Aggregations.md)||
 |&emsp;&emsp;&emsp;&emsp;[Avg Aggregation](./Aggregations/Metrics_Aggregations/Avg_Aggregation.md)||
