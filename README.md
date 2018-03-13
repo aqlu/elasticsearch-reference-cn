@@ -132,10 +132,10 @@
 |&emsp;&emsp;[Multi Search Template](./Search_APIs/Multi_Search_Template.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
 |&emsp;&emsp;[Search Shards API](./Search_APIs/Search_Shards_API.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
 |&emsp;&emsp;[Suggesters](./Search_APIs/Suggesters.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
-|&emsp;&emsp;&emsp;&emsp;[Term suggester](./Search_APIs/Suggesters/Term_suggester.md)||
-|&emsp;&emsp;&emsp;&emsp;[Phrase Suggester](./Search_APIs/Suggesters/Phrase_Suggester.md)||
-|&emsp;&emsp;&emsp;&emsp;[Completion Suggester](./Search_APIs/Suggesters/Completion_Suggester.md)||
-|&emsp;&emsp;&emsp;&emsp;[Context Suggester](./Search_APIs/Suggesters/Context_Suggester.md)||
+|&emsp;&emsp;&emsp;&emsp;[Term suggester](./Search_APIs/Suggesters/Term_suggester.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
+|&emsp;&emsp;&emsp;&emsp;[Phrase Suggester](./Search_APIs/Suggesters/Phrase_Suggester.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
+|&emsp;&emsp;&emsp;&emsp;[Completion Suggester](./Search_APIs/Suggesters/Completion_Suggester.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
+|&emsp;&emsp;&emsp;&emsp;[Context Suggester](./Search_APIs/Suggesters/Context_Suggester.md)|[@Josh](http://cwiki.apachecn.org/display/~yeshuai)|
 |&emsp;&emsp;[Multi Search API](./Search_APIs/Multi_Search_API.md)||
 |&emsp;&emsp;[Count API](./Search_APIs/Count_API.md)||
 |&emsp;&emsp;[Validate API](./Search_APIs/Validate_API.md)||
